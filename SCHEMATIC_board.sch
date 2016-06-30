@@ -3221,14 +3221,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
-<part name="S1" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S2" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S3" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S4" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S5" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S6" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S7" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
-<part name="S8" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-1" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-2" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-3" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-4" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-5" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-6" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-7" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
+<part name="SENSOR-8" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
 <part name="POWER" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
 <part name="C1" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="100uf"/>
 <part name="C2" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1NF-1KV-10%-X7R?(1206)" device="" value="1NF"/>
@@ -3245,14 +3245,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="46.99" y="31.75"/>
-<instance part="S1" gate="G$1" x="-20.32" y="67.31" rot="R90"/>
-<instance part="S2" gate="G$1" x="-20.32" y="43.18" rot="R90"/>
-<instance part="S3" gate="G$1" x="-20.32" y="15.24" rot="R90"/>
-<instance part="S4" gate="G$1" x="-20.32" y="-13.97" rot="R90"/>
-<instance part="S5" gate="G$1" x="83.82" y="77.47" rot="R90"/>
-<instance part="S6" gate="G$1" x="83.82" y="48.26" rot="R90"/>
-<instance part="S7" gate="G$1" x="83.82" y="15.24" rot="R90"/>
-<instance part="S8" gate="G$1" x="83.82" y="-11.43" rot="R90"/>
+<instance part="SENSOR-1" gate="G$1" x="-20.32" y="67.31" rot="R90"/>
+<instance part="SENSOR-2" gate="G$1" x="-20.32" y="43.18" rot="R90"/>
+<instance part="SENSOR-3" gate="G$1" x="-20.32" y="15.24" rot="R90"/>
+<instance part="SENSOR-4" gate="G$1" x="-20.32" y="-13.97" rot="R90"/>
+<instance part="SENSOR-5" gate="G$1" x="83.82" y="77.47" rot="R90"/>
+<instance part="SENSOR-6" gate="G$1" x="83.82" y="48.26" rot="R90"/>
+<instance part="SENSOR-7" gate="G$1" x="83.82" y="15.24" rot="R90"/>
+<instance part="SENSOR-8" gate="G$1" x="83.82" y="-11.43" rot="R90"/>
 <instance part="POWER" gate="G$1" x="31.75" y="81.28"/>
 <instance part="C1" gate="G$1" x="5.08" y="81.28" rot="R270"/>
 <instance part="C2" gate="G$1" x="-5.08" y="81.28" rot="R90"/>
@@ -3268,7 +3268,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <nets>
 <net name="TRIG1" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="3"/>
+<pinref part="SENSOR-1" gate="G$1" pin="3"/>
 <wire x1="-21.59" y1="59.69" x2="-21.59" y2="54.61" width="0.1524" layer="91"/>
 <label x="-21.59" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3280,7 +3280,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO1" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="4"/>
+<pinref part="SENSOR-1" gate="G$1" pin="4"/>
 <wire x1="-19.05" y1="59.69" x2="-19.05" y2="54.61" width="0.1524" layer="91"/>
 <label x="-19.05" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3292,7 +3292,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX1" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="5"/>
+<pinref part="SENSOR-1" gate="G$1" pin="5"/>
 <wire x1="-16.51" y1="59.69" x2="-16.51" y2="54.61" width="0.1524" layer="91"/>
 <label x="-16.51" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3304,7 +3304,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX1" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="6"/>
+<pinref part="SENSOR-1" gate="G$1" pin="6"/>
 <wire x1="-13.97" y1="59.69" x2="-13.97" y2="54.61" width="0.1524" layer="91"/>
 <label x="-13.97" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3316,7 +3316,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG2" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="3"/>
+<pinref part="SENSOR-2" gate="G$1" pin="3"/>
 <wire x1="-21.59" y1="35.56" x2="-21.59" y2="29.21" width="0.1524" layer="91"/>
 <label x="-21.59" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3328,7 +3328,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO2" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="4"/>
+<pinref part="SENSOR-2" gate="G$1" pin="4"/>
 <wire x1="-19.05" y1="35.56" x2="-19.05" y2="29.21" width="0.1524" layer="91"/>
 <label x="-19.05" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3340,7 +3340,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX2" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="5"/>
+<pinref part="SENSOR-2" gate="G$1" pin="5"/>
 <wire x1="-16.51" y1="35.56" x2="-16.51" y2="29.21" width="0.1524" layer="91"/>
 <label x="-16.51" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3352,7 +3352,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX2" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="6"/>
+<pinref part="SENSOR-2" gate="G$1" pin="6"/>
 <wire x1="-13.97" y1="35.56" x2="-13.97" y2="29.21" width="0.1524" layer="91"/>
 <label x="-13.97" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3364,7 +3364,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="3"/>
+<pinref part="SENSOR-3" gate="G$1" pin="3"/>
 <wire x1="-21.59" y1="7.62" x2="-21.59" y2="1.27" width="0.1524" layer="91"/>
 <label x="-21.59" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3376,7 +3376,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="4"/>
+<pinref part="SENSOR-3" gate="G$1" pin="4"/>
 <wire x1="-19.05" y1="7.62" x2="-19.05" y2="1.27" width="0.1524" layer="91"/>
 <label x="-19.05" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3388,7 +3388,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="5"/>
+<pinref part="SENSOR-3" gate="G$1" pin="5"/>
 <wire x1="-16.51" y1="7.62" x2="-16.51" y2="1.27" width="0.1524" layer="91"/>
 <label x="-16.51" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3400,7 +3400,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="6"/>
+<pinref part="SENSOR-3" gate="G$1" pin="6"/>
 <wire x1="-13.97" y1="7.62" x2="-13.97" y2="1.27" width="0.1524" layer="91"/>
 <label x="-13.97" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3412,7 +3412,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG4" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="3"/>
+<pinref part="SENSOR-4" gate="G$1" pin="3"/>
 <wire x1="-21.59" y1="-21.59" x2="-21.59" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-21.59" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3424,7 +3424,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO4" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="4"/>
+<pinref part="SENSOR-4" gate="G$1" pin="4"/>
 <wire x1="-19.05" y1="-21.59" x2="-19.05" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-19.05" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3436,7 +3436,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX4" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="5"/>
+<pinref part="SENSOR-4" gate="G$1" pin="5"/>
 <wire x1="-16.51" y1="-21.59" x2="-16.51" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-16.51" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3448,7 +3448,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX4" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="6"/>
+<pinref part="SENSOR-4" gate="G$1" pin="6"/>
 <wire x1="-13.97" y1="-21.59" x2="-13.97" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-13.97" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3460,7 +3460,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG5" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="3"/>
+<pinref part="SENSOR-5" gate="G$1" pin="3"/>
 <wire x1="82.55" y1="69.85" x2="82.55" y2="63.5" width="0.1524" layer="91"/>
 <label x="82.55" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3472,7 +3472,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO5" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="4"/>
+<pinref part="SENSOR-5" gate="G$1" pin="4"/>
 <wire x1="85.09" y1="69.85" x2="85.09" y2="63.5" width="0.1524" layer="91"/>
 <label x="85.09" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3484,7 +3484,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX5" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="5"/>
+<pinref part="SENSOR-5" gate="G$1" pin="5"/>
 <wire x1="87.63" y1="69.85" x2="87.63" y2="63.5" width="0.1524" layer="91"/>
 <label x="87.63" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3496,7 +3496,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX5" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="6"/>
+<pinref part="SENSOR-5" gate="G$1" pin="6"/>
 <wire x1="90.17" y1="69.85" x2="90.17" y2="63.5" width="0.1524" layer="91"/>
 <label x="90.17" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3508,7 +3508,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG6" class="0">
 <segment>
-<pinref part="S6" gate="G$1" pin="3"/>
+<pinref part="SENSOR-6" gate="G$1" pin="3"/>
 <wire x1="82.55" y1="40.64" x2="82.55" y2="34.29" width="0.1524" layer="91"/>
 <label x="82.55" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3520,7 +3520,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO6" class="0">
 <segment>
-<pinref part="S6" gate="G$1" pin="4"/>
+<pinref part="SENSOR-6" gate="G$1" pin="4"/>
 <wire x1="85.09" y1="40.64" x2="85.09" y2="34.29" width="0.1524" layer="91"/>
 <label x="85.09" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3532,7 +3532,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX6" class="0">
 <segment>
-<pinref part="S6" gate="G$1" pin="5"/>
+<pinref part="SENSOR-6" gate="G$1" pin="5"/>
 <wire x1="87.63" y1="40.64" x2="87.63" y2="34.29" width="0.1524" layer="91"/>
 <label x="87.63" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3544,7 +3544,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX6" class="0">
 <segment>
-<pinref part="S6" gate="G$1" pin="6"/>
+<pinref part="SENSOR-6" gate="G$1" pin="6"/>
 <wire x1="90.17" y1="40.64" x2="90.17" y2="34.29" width="0.1524" layer="91"/>
 <label x="90.17" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3556,7 +3556,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG7" class="0">
 <segment>
-<pinref part="S7" gate="G$1" pin="3"/>
+<pinref part="SENSOR-7" gate="G$1" pin="3"/>
 <wire x1="82.55" y1="7.62" x2="82.55" y2="1.27" width="0.1524" layer="91"/>
 <label x="82.55" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3568,7 +3568,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO7" class="0">
 <segment>
-<pinref part="S7" gate="G$1" pin="4"/>
+<pinref part="SENSOR-7" gate="G$1" pin="4"/>
 <wire x1="85.09" y1="7.62" x2="85.09" y2="1.27" width="0.1524" layer="91"/>
 <label x="85.09" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3580,7 +3580,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX7" class="0">
 <segment>
-<pinref part="S7" gate="G$1" pin="5"/>
+<pinref part="SENSOR-7" gate="G$1" pin="5"/>
 <wire x1="87.63" y1="7.62" x2="87.63" y2="1.27" width="0.1524" layer="91"/>
 <label x="87.63" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3592,7 +3592,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX7" class="0">
 <segment>
-<pinref part="S7" gate="G$1" pin="6"/>
+<pinref part="SENSOR-7" gate="G$1" pin="6"/>
 <wire x1="90.17" y1="7.62" x2="90.17" y2="1.27" width="0.1524" layer="91"/>
 <label x="90.17" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3604,7 +3604,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TRIG8" class="0">
 <segment>
-<pinref part="S8" gate="G$1" pin="3"/>
+<pinref part="SENSOR-8" gate="G$1" pin="3"/>
 <wire x1="82.55" y1="-19.05" x2="82.55" y2="-25.4" width="0.1524" layer="91"/>
 <label x="82.55" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3616,7 +3616,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="ECHO8" class="0">
 <segment>
-<pinref part="S8" gate="G$1" pin="4"/>
+<pinref part="SENSOR-8" gate="G$1" pin="4"/>
 <wire x1="85.09" y1="-19.05" x2="85.09" y2="-25.4" width="0.1524" layer="91"/>
 <label x="85.09" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3628,7 +3628,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="RX8" class="0">
 <segment>
-<pinref part="S8" gate="G$1" pin="5"/>
+<pinref part="SENSOR-8" gate="G$1" pin="5"/>
 <wire x1="87.63" y1="-19.05" x2="87.63" y2="-25.4" width="0.1524" layer="91"/>
 <label x="87.63" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3640,7 +3640,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="TX8" class="0">
 <segment>
-<pinref part="S8" gate="G$1" pin="6"/>
+<pinref part="SENSOR-8" gate="G$1" pin="6"/>
 <wire x1="90.17" y1="-19.05" x2="90.17" y2="-25.4" width="0.1524" layer="91"/>
 <label x="90.17" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3664,42 +3664,42 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="15.24" y="19.05" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="SENSOR-1" gate="G$1" pin="1"/>
 <wire x1="-26.67" y1="59.69" x2="-26.67" y2="54.61" width="0.1524" layer="91"/>
 <label x="-26.67" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="SENSOR-2" gate="G$1" pin="1"/>
 <wire x1="-26.67" y1="35.56" x2="-26.67" y2="29.21" width="0.1524" layer="91"/>
 <label x="-26.67" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="1"/>
+<pinref part="SENSOR-3" gate="G$1" pin="1"/>
 <wire x1="-26.67" y1="7.62" x2="-26.67" y2="1.27" width="0.1524" layer="91"/>
 <label x="-26.67" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S4" gate="G$1" pin="1"/>
+<pinref part="SENSOR-4" gate="G$1" pin="1"/>
 <wire x1="-26.67" y1="-21.59" x2="-26.67" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-26.67" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="G$1" pin="1"/>
+<pinref part="SENSOR-8" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="-19.05" x2="77.47" y2="-25.4" width="0.1524" layer="91"/>
 <label x="77.47" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S7" gate="G$1" pin="1"/>
+<pinref part="SENSOR-7" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="7.62" x2="77.47" y2="1.27" width="0.1524" layer="91"/>
 <label x="77.47" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="G$1" pin="1"/>
+<pinref part="SENSOR-6" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="40.64" x2="77.47" y2="34.29" width="0.1524" layer="91"/>
 <label x="77.47" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="1"/>
+<pinref part="SENSOR-5" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="69.85" x2="77.47" y2="63.5" width="0.1524" layer="91"/>
 <label x="77.47" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -3755,42 +3755,42 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <label x="63.5" y="19.05" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="SENSOR-1" gate="G$1" pin="2"/>
 <wire x1="-24.13" y1="59.69" x2="-24.13" y2="54.61" width="0.1524" layer="91"/>
 <label x="-24.13" y="54.61" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="SENSOR-2" gate="G$1" pin="2"/>
 <wire x1="-24.13" y1="35.56" x2="-24.13" y2="29.21" width="0.1524" layer="91"/>
 <label x="-24.13" y="29.21" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="2"/>
+<pinref part="SENSOR-3" gate="G$1" pin="2"/>
 <wire x1="-24.13" y1="7.62" x2="-24.13" y2="1.27" width="0.1524" layer="91"/>
 <label x="-24.13" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S4" gate="G$1" pin="2"/>
+<pinref part="SENSOR-4" gate="G$1" pin="2"/>
 <wire x1="-24.13" y1="-21.59" x2="-24.13" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-24.13" y="-27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="G$1" pin="2"/>
+<pinref part="SENSOR-8" gate="G$1" pin="2"/>
 <wire x1="80.01" y1="-19.05" x2="80.01" y2="-25.4" width="0.1524" layer="91"/>
 <label x="80.01" y="-25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S7" gate="G$1" pin="2"/>
+<pinref part="SENSOR-7" gate="G$1" pin="2"/>
 <wire x1="80.01" y1="7.62" x2="80.01" y2="1.27" width="0.1524" layer="91"/>
 <label x="80.01" y="1.27" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="G$1" pin="2"/>
+<pinref part="SENSOR-6" gate="G$1" pin="2"/>
 <wire x1="80.01" y1="40.64" x2="80.01" y2="34.29" width="0.1524" layer="91"/>
 <label x="80.01" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="2"/>
+<pinref part="SENSOR-5" gate="G$1" pin="2"/>
 <wire x1="80.01" y1="69.85" x2="80.01" y2="63.5" width="0.1524" layer="91"/>
 <label x="80.01" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
